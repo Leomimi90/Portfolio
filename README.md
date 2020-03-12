@@ -1,2 +1,2 @@
 # Profilo
-My profilo project
+My personal portfolio project
