@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+}
+body{
+    font-family: "lato";
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* 
+==================================
+        Reusable links
+==================================
+ */
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding-bottom:8px ;
+}
+
+/*==================================
+        Typography
+==================================
+*/
+
+body{
+    color:#888;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    background: #fff;
+}
+h1,h2,h3,h4,h5, p{
+    margin: 22px;
+    word-spacing: 1px;
+    color:#648888;
+}
+h1{
+    font-size: 36px;
+    line-height: 44px;
+}
+h2{
+    font-size: 24px;
+    line-height: 44px;
+}
+h3{
+    font-size: 21px;
+}
+h4{
+    font-size: 18px;
+}
+h5{
+    color:#a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+strong{
+    font-weight: 400;
+}
+cite, em{
+    font-style: italic;
+}
+ /* 
+============================================================================
+                                 Homepage
+============================================================================
+ */
+.container{
+    width: 960px;
+    margin:auto;
+}
+nav a:hover{
+    border-bottom: 1px solid #f12;
+
+}
+
+/* 
+==================================
+        Header section
+==================================
+ */
+.hero-pic{
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.685)),url(images/hero.jpg); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* height: 100vh; */
+ }
+ /* .logo{
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+ }
+.logo img{
+    width: 100px;
+    border-radius: 50%;
+} */
+nav{
+    float: right;
+    width: 60%;
+    /* margin: 20px 0 0 0; */
+}
+nav li{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 90px;
+}
+.hero-text{
+    margin-bottom: 80px;
+    padding: 20px;
+}
+.hero-text h1{
+    text-align: center;
+    /* margin-top:150px; */
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 32px;
+}
+.hero-text p{
+    margin-top: 22px;
+    text-align: center;
+    font-size: 18px;    
+}
+.links-last li{
+    display: inline-block;
+}
+.links-last a{
+    margin-left:250px;
+    border: 1px solid #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: 0.7s;
+}
+.links-last a:hover{
+    background-color:  #ff1121;
+    border: 1px solid #ff1121; 
+    transition: 0.7s;
+  
+}
+.col-1-3{
+    width: 33.3%;
+    display: inline-block;
+}
+
+.col-1-3 img{
+    width: 100%;
+}
+article h1{
+    text-align: center;
+    margin:50px 0 60px 200px;
+    border-bottom: 2px solid #f12;
+    width: 50%;
+}
+article .last {
+    margin-top: 50px;
+    text-align: center;
+}
+footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.733), #000), url(images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    margin:40px 0 0 0;
+}
+.copyright{
+    float: left;
+    margin: 80px 0 0 70px;
+    
+}
+.socials{
+    float: right;
+    margin-top: 40px;
+}
+.socials a{
+    display: block;
+    color: #555;
+    margin: 0;
+    padding:0;
+    font-size: 16px;
+    font-weight: 540;
+
+}
