@@ -470,7 +470,7 @@ footer{
 .foot div{
     width: 10%;
     /* padding: 10px; */
-    margin: 15px;
+    margin: 15px; 
     display: inline-block;
     text-align: center;
     /* background-color: #2c87f0; */
@@ -734,7 +734,7 @@ footer h2::after{
     .vision{
         margin: 0 auto;
         text-align: justify;
-        width: 80%;
+        width: 90%;
     }
     .vision h2{
         text-align: center;
