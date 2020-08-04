@@ -4,7 +4,7 @@
 $(document).ready(function () {
     window.onload = function () {
         $('.preload').fadeOut(500, function () { $('.preload').hide(); });
-        $('.maincontent').show().fadeIn(500);
+        $('.maincontent').fadeIn(1000);
         // Typer
         const list = ["Developer", "Musician", "Leader", "Mentor", "Teacher", "Advocate"];
         let count = 0;
